@@ -1,0 +1,62 @@
+{
+  "id": "/",
+  "name": "ColorParty",
+  "short_name": "ColorParty",
+  "description": "ColorParty — live proximity praise at Humaan",
+  "theme_color": "#fffefb",
+  "background_color": "#000000",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui",
+    "browser"
+  ],
+  "orientation": "any",
+  "scope": "/",
+  "start_url": "/?source=pwa",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/inv-craigreville/colorparty-pwa-icons@main/humaan-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/inv-craigreville/colorparty-pwa-icons@main/humaan-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/inv-craigreville/colorparty-pwa-icons@main/humaan-192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/inv-craigreville/colorparty-pwa-icons@main/humaan-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": [
+    "productivity",
+    "social"
+  ],
+  "shortcuts": [
+    {
+      "name": "Open canvas",
+      "short_name": "Canvas",
+      "url": "/?source=shortcut",
+      "icons": [
+        {
+          "src": "https://cdn.jsdelivr.net/gh/inv-craigreville/colorparty-pwa-icons@main/humaan-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
